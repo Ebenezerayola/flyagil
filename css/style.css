@@ -1300,6 +1300,7 @@ section.popular-packages{
   padding: 0 0 50px;
 }
 .popular-packages .section-title{
+  margin-top: 80px;
   margin-bottom: 10px
 }
 .package-item{
@@ -1998,7 +1999,7 @@ section.trusted-partners{
   top: 0;
   height: 100%;
   width: 35%;
-  background: #191e27;
+  background: #191e27 !important;
   z-index: 1;
 }
 .partners-logo li{
@@ -4618,6 +4619,7 @@ header.head-style-1{
   display: block;
 }
 .style-1 section.popular-packages{
+
   padding: 80px 0;
 }
 .banner-style-1 .slider-content{
@@ -6337,6 +6339,7 @@ body.style-tab::after {
   section.popular-packages,
   .style-2 section.top-destinations-1{
     padding: 80px 0 50px;
+
   }
   .search-box{
     padding-top: 80px;
