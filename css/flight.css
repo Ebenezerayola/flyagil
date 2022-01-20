@@ -1,8 +1,7 @@
 /* 
 /*------------------------------------------------------------------
 * Project:        Yatra
-* Author:         CN-InfoTech
-* URL:            https://themeforest.net/user/cn-infotech
+* Author:         Hostlag
 * Created:        6/24/2019
 -------------------------------------------------------------------
 
@@ -1547,7 +1546,7 @@ section.swiper-banner:after {
 
 .destination-content h3 {
     margin-bottom: 15px;
-    border-bottom: 1px dashed #f1f1f1;
+    /*border-bottom: 1px dashed #f1f1f1;*/
     padding-bottom: 15px;
 }
 
@@ -1678,6 +1677,50 @@ section.tour-cta {
     border: 10px solid #fff;
     box-shadow: 0 0 15px #cccccc70;
 }
+section.trusted-partners{
+  background: #222935;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.trusted-partners:before{
+  position: absolute;
+  content: '';
+  left: -5%;
+  top: 0;
+  height: 100%;
+  width: 35%;
+  background: #191e27 !important;
+  z-index: 1;
+}
+.partners-logo li{
+  padding: 0 30px;
+  margin-bottom: 0;
+  transition: all ease-in-out 0.3s;
+}
+.partners-logo li:hover{
+  opacity: 0.7;
+}
+.partners-title h3{
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: right;
+}
+.partners-title span{
+  display: block;
+  font-size: 32px;
+}
+.partners-title{
+  padding: 30px 30px 25px;
+  position: relative;
+  z-index: 2;
+}
+.partners-logo{
+  padding: 37px 0 0;
+}
 
 /* ====================== */
 /*         Footer         */
@@ -1687,7 +1730,28 @@ footer{
   background: #060c17;
   position: relative;
 }
-
+.newsletter{
+  padding: 55px 0 35px;
+  position: relative;
+  z-index: 1;
+}
+.newsletter form{
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+}
+.newsletter a{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  background: #D60D45;
+  color: #fff;
+}
+.newsletter input[type=text]{
+  padding-right: 115px;
+  margin-bottom: 0;
+}
 .footer-links{
   padding: 60px 0 59px;
   border-top: 1px dashed #cccccc3b;
