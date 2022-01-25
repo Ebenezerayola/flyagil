@@ -1188,19 +1188,6 @@ section.swiper-banner{
   padding: 0;
 }
 
-section.swiper-banner:after {
-    content: '';
-    background: url(../images/mount.png) repeat-x;
-    background-size: 100%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 25%;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
 
 .slider{
     height: 600px;
